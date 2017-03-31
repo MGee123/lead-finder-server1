@@ -8,12 +8,13 @@ var apiData = [];
 for (var i = 0; i < apiURLs.length; i++) {
     var url = apiURLs[i];
     function apiCall () {
-        request.get(urloh)
-        .then(function(res) {
-            console.log(res);
-  }     , function(error) {
-            console.log(error);
-        })
+        request.get(url)
+            .then(function(res) {
+                console.log(res);
+            })
+            .catch(function(error) {
+                console.log(error);
+            });
     }
     apiData.push(apiCall());
 }
