@@ -1,5 +1,4 @@
 export default {
-  firebaseUrl: 'https://hacker-how-dev.firebaseio.com',
   firebase: {
   apiKey: 'AIzaSyBMkg8RTS8ddq6ySjsU_ElafkdoriCZfEA',
   authDomain: 'lead-finder-dev.firebaseapp.com',
