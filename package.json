@@ -14,6 +14,7 @@
     "build": "yarn run clean && mkdir dist && babel scripts --out-dir dist --source-maps",
     "lint:js": "eslint ./scripts --ext=js",
     "postinstall": "yarn check:node",
+    "server": "node app.js",
     "start": "babel-node scripts/apifunc.js",
     "start:debug": "yarn start -- --inspect",
     "start:watch": "nodemon -w ./scripts --exec yarn start",
